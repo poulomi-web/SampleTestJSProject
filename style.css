@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #181c1f;
+  color: #bdd1d4;
+  margin: 2rem;
+}
+
+.headerVanillaJS {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.headerJS {
+  background-color: burlywood;
+  color: #181c1f;
+  margin-top: 3rem;
+  padding: 0.5rem;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.tab-content {
+  padding: 2rem;
+  background-color: cadetblue;
+}
+
+button {
+  background-color: burlywood;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 0.5rem;
+}
